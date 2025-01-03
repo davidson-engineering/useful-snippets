@@ -1,0 +1,3 @@
+[submodule "ClearCore-library"]
+	path = ClearCore-library
+	url = https://github.com/Teknic-Inc/ClearCore-library.git
