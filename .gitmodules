@@ -1,3 +1,6 @@
 [submodule "ClearCore-library"]
 	path = ClearCore-library
 	url = https://github.com/Teknic-Inc/ClearCore-library.git
+[submodule "firewall_try_harder"]
+	path = firewall_try_harder
+	url = https://github.com/gnarcoding/firewall_try_harder.git
