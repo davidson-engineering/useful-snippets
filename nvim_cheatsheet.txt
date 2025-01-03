@@ -1,0 +1,23 @@
+# Nvim Cheatsheet
+## tags: nvim, vim, cheatsheet, commands, keybindings, shortcuts, reference
+created: 2024-01-01
+
+# Edit
+- `i` - insert mode
+- `a` - append after cursor
+- `A` - append at end of line
+- `o` - open new line below
+- `O` - open new line above
+- `r` - replace character
+- `R` - replace mode
+- `c` - change
+- `cc` - change line
+- `cw` - change word
+- `dd` - delete line
+- `dw` - delete word
+
+# Navigation
+- `hjkl` - up, down, left, right
+- `w` - next word
+- `b` - previous word
+

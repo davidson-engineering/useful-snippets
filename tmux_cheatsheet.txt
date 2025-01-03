@@ -1,0 +1,20 @@
+# Tmux Cheatsheet
+## tags: tmux, cheatsheet, terminal, linux
+
+### Session Management
+- `tmux` - start a new session
+- `tmux new -s session_name` - start a new session with a name
+- `tmux ls` - list sessions
+- `tmux a` - attach to the last session
+- `tmux a -t session_name` - attach to a session
+- `tmux kill-session -t session_name` - kill a session
+
+### Window Management
+- `Ctrl-b c` - create a new window
+- `Ctrl-b w` - list windows
+- `Ctrl-b n` - next window
+- `Ctrl-b p` - previous window
+- `Ctrl-b f` - find window
+- `Ctrl-b ,` - name window
+- `Ctrl-b &` - kill window
+
