@@ -20,4 +20,17 @@ created: 2024-01-01
 - `hjkl` - up, down, left, right
 - `w` - next word
 - `b` - previous word
+- '%' - jump to matching parenthesis
+- `gg` - go to top of file
+- `G` - go to bottom of file
+- '421G' - go to line 421
+- `0` - go to beginning of line
+- `$` - go to end of line
 
+# Substitution
+- `:s/foo/bar/g` - replace all occurrences of 'foo' with 'bar'
+- `:s/foo/bar/gc` - replace all occurrences of 'foo' with 'bar', confirm each substitution
+- `:s/foo/bar/gci` - replace all occurrences of 'foo' with 'bar', confirm each substitution, case-insensitive
+- `:s/foo/bar/gcI` - replace all occurrences of 'foo' with 'bar', confirm each substitution, case-sensitive
+- `:%s/foo/bar/g` - replace all occurrences of 'foo' with 'bar' in entire file
+- `:%s/foo/bar/gc` - replace all occurrences of 'foo' with 'bar' in entire file, confirm each substitution
