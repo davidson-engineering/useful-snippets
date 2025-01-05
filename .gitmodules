@@ -4,3 +4,6 @@
 [submodule "firewall_try_harder"]
 	path = firewall_try_harder
 	url = https://github.com/gnarcoding/firewall_try_harder.git
+[submodule "ClearCore-Arduino-wrapper"]
+	path = ClearCore-Arduino-wrapper
+	url = https://github.com/Teknic-Inc/ClearCore-Arduino-wrapper.git
