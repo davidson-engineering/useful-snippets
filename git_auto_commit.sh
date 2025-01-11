@@ -4,7 +4,7 @@
 REPO_PATH="${1:-$(pwd)}"
 
 # Log file location inside the repository path
-LOG_FILE="$REPO_PATH/.git_auto_update.log"
+LOG_FILE="$REPO_PATH/.git_auto_commit.log"
 
 # Navigate to the repository
 if [ -d "$REPO_PATH" ]; then
