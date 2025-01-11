@@ -1,0 +1,10 @@
+/Users/matthew/.snippets/git_auto_commit.sh: line 18: GIT_IGNORE_PATH: command not found
+.gitignore does not exist. Creating and adding .git_auto_commit.log...
+/Users/matthew/.snippets/git_auto_commit.sh: line 18: =: command not found
+/Users/matthew/.snippets/git_auto_commit.sh: line 21: $GIT_IGNORE_PATH: ambiguous redirect
+Added .git_auto_commit.log to .gitignore
+/Users/matthew/.snippets/git_auto_commit.sh: line 18: GIT_IGNORE_PATH: command not found
+/Users/matthew/.snippets/git_auto_commit.sh: line 19: [: missing `]'
+/Users/matthew/.snippets/git_auto_commit.sh: line 18: GIT_IGNORE_PATH: command not found
+.gitignore does not exist. Creating and adding .git_auto_commit.log...
+/Users/matthew/.snippets/git_auto_commit.sh: line 26: : No such file or directory

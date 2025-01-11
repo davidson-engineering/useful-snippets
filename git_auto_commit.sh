@@ -15,14 +15,15 @@ else
 fi
 
 # Ensure the logfile is ignored by Git
-if [ -f ".gitignore" ]; then
-  if ! grep -qxF "$(basename "$LOG_FILE")" .gitignore; then
-    echo "$(basename "$LOG_FILE")" >> .gitignore
+GIT_IGNORE_PATH = "$REPO_PATH/.gitignore"
+if [ -f "$GIT_IGNORE_PATH" ]; then
+  if ! grep -qxF "$(basename "$LOG_FILE")" "$GIT_IGNORE_PATH"; then
+    echo "$(basename "$LOG_FILE")" >> "$GIT_IGNORE_PATH"
     echo "Added $(basename "$LOG_FILE") to .gitignore"
   fi
 else
   echo ".gitignore does not exist. Creating and adding $(basename "$LOG_FILE")..."
-  echo "$(basename "$LOG_FILE")" > .gitignore
+  echo "$(basename "$LOG_FILE")" > "$GIT_IGNORE_PATH"
 fi
 
 # Start logging
