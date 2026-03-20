@@ -1,4 +1,5 @@
 # Bash Cheatsheet
+## tags: bash, shell, cheatsheet, commands, processes
 
 ## Navigation
 cd: Change directory

@@ -1,4 +1,5 @@
 # SSH Cheatsheet
+## tags: ssh, cheatsheet, security, keys, remote
 
 ## Create SSH Key
 ```bash

@@ -1,4 +1,5 @@
 # Tmuxinator Cheatsheet
+## tags: tmuxinator, tmux, cheatsheet, terminal, sessions
 
 Tmuxinator is a tool to manage tmux sessions. It allows you to create, edit, start, and stop tmux sessions with a simple command. A YAML file is used to define the tmux session.
 

@@ -1,5 +1,5 @@
 # Network Drives, Mounting and Unmounting
-keywords: network drives, mount, unmount, samba, cifs, nfs
+## tags: linux, networking, nfs, smb, samba, mount
 
 ## Mounting a Network Drive
 

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# tags: python, matplotlib, animation, physics, projectile
 """
 Created on Sat Jun 12 13:01:21 2021
 

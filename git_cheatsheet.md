@@ -1,4 +1,5 @@
 # Git Cheatsheet
+## tags: git, cheatsheet, version-control, commands
 
 ## Git Basics
 git init -- Create a new git repository

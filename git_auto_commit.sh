@@ -1,4 +1,5 @@
 #!/bin/bash
+# tags: bash, git, automation, scripting
 
 # Set the repository path to the first argument, or use the current directory if no argument is provided
 REPO_PATH="${1:-$(pwd)}"

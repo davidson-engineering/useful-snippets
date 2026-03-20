@@ -1,4 +1,5 @@
-echo "3-d" 
+# tags: bash, figlet, fonts, terminal, ascii-art
+echo "3-d"
 figlet -f 3-d $text 
 read -p ""
 echo "3x5" 

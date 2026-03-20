@@ -1,4 +1,4 @@
-
+# tags: python, dataclass, mixin, mapping, patterns
 from typing import Mapping
 from dataclasses import asdict
 

@@ -1,3 +1,4 @@
+# tags: python, scipy, matplotlib, 3d-plotting, math
 import numpy, scipy, scipy.optimize
 from matplotlib import cm # to colormap 3D surfaces from blue to red
 import matplotlib.pyplot as plt
